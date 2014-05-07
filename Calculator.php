@@ -37,11 +37,30 @@ class Calculator {
    
     }
     
-      public function Substract2($a, $b) {
+    
+     /**
+     * 
+     * 
+     * @param1 is het eerste getal dat we willen optellen
+     * @param2 is het tweede getal dat we willen optellen 
+     * @return Double Hier krijgen we de som terug
+     * 
+     * @version 1.1
+     * 
+    * @assert (1,1) == 0
+    * @assert (0,1) == -1
+    * @assert (1,0) == 1
+    * @assert (1,1) == 0
+    * @assert (1,2) == -1
+    **/
+      public function Substract($a, $b) {
         return $a - $b;
    
     }
-
+      public function Vermenigvuldig ($a, $b) {
+        return $a * $b;
+   
+    }
 }
 
 ?>
