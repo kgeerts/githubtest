@@ -37,7 +37,7 @@ class Calculator {
    
     }
     
-      public function Substract($a, $b) {
+      public function Substract2($a, $b) {
         return $a - $b;
    
     }
