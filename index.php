@@ -8,6 +8,7 @@
         <?php
         echo "dit is de eerste wijziging ";
         echo " en deze na uitcheck";
+        echo " en nog een derde wijziging";
         // put your code here
         ?>
     </body>
